@@ -18,12 +18,6 @@ python3 server.py
 
 Then open `http://127.0.0.1:8765`.
 
-On this Windows machine, the working Python discovered during setup was:
-
-```powershell
-& 'C:\Program Files\Microsoft SDKs\Azure\CLI2\python.exe' server.py
-```
-
 The browser app serves a fast hero-grid team builder, ranked score breakdowns, and safe local editing for `preferences.json` and `config.json`. Pick enemy heroes in role-specific slots; the app recommends and fills a full 1 tank / 2 DPS / 2 support team, while any teammate you lock stays fixed. Core matchup data remains JSON-first and is not edited by the app in v1.
 
 ## How scoring works
