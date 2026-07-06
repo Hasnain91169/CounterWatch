@@ -1,0 +1,25 @@
+{
+  "_comment": "Synergy layer. 'pairs' are strong specific combos (enabler pairings / cooldown coverage), treated as symmetric - listing a->b also counts for b->a. Scale 0..3. 'archetype_coherence' rewards a candidate whose archetype matches the dominant archetype of your locked teammates, so the tool prefers picks that fit the comp instead of five disconnected counters.",
+
+  "pairs": [
+    { "a": "pharah",  "b": "mercy",     "value": 3.0, "note": "classic pocket - mobile air bully + dmg boost/rez" },
+    { "a": "winston", "b": "dva",       "value": 1.5, "note": "double dive frontline" },
+    { "a": "winston", "b": "lucio",     "value": 1.5, "note": "speed enables dive engage/disengage" },
+    { "a": "genji",   "b": "lucio",     "value": 1.5, "note": "speed + dive flank" },
+    { "a": "tracer",  "b": "lucio",     "value": 1.5, "note": "speed + dive flank" },
+    { "a": "reinhardt","b": "lucio",    "value": 1.5, "note": "brawl frontline + speed/amp" },
+    { "a": "reinhardt","b": "ana",      "value": 1.5, "note": "ana sustains + nano boosts the rein engage" },
+    { "a": "mauga",   "b": "kiriko",    "value": 1.5, "note": "suzu cleanse keeps the brawl tank alive" },
+    { "a": "zarya",   "b": "mei",       "value": 2.0, "note": "bubble into blizzard combo / brawl pressure" },
+    { "a": "sigma",   "b": "ashe",      "value": 1.5, "note": "poke frontline shield + long-range pressure" },
+    { "a": "junker_queen","b": "lucio", "value": 1.5, "note": "rush comp anchor + speed" },
+    { "a": "doomfist","b": "kiriko",    "value": 1.5, "note": "suzu/swift-step covers the dive tank" }
+  ],
+
+  "archetype_coherence": {
+    "dive": 1.0,
+    "brawl": 1.0,
+    "poke": 1.0,
+    "flex": 0.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_comment": "Your personal layer - the reason this tool is yours. 'comfort' is a soft nudge added to a hero's score (positive = you play it well, negative = you'd rather not). It should be small enough that a big counter advantage can still override a mild preference. 'exclude' is a hard filter - these heroes are never recommended, full stop. Edit freely.",
+
+  "comfort": {
+    "genji": 2.0,
+    "tracer": 1.5,
+    "ana": 1.5,
+    "kiriko": 1.0,
+    "winston": 1.0,
+    "cassidy": 0.5
+  },
+
+  "exclude": [
+    "widowmaker"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_comment": "Official Overwatch sub-roles (Season 1 'Reign of Talon' relaunch, Feb 2026). Each sub-role carries a gameplay passive. 'implies' lists mechanical tags the engine can fold into matchup logic. Passive values get tuned per patch - treat as a snapshot and re-check after balance updates.",
+
+  "stalwart":     { "role": "tank",    "passive": "Reduces knockbacks and slows received.",                              "implies": ["cc_resistant"] },
+  "initiator":    { "role": "tank",    "passive": "Staying airborne / using a movement ability grants heal-over-time.",  "implies": ["dive_threat", "high_mobility"] },
+  "bruiser":      { "role": "tank",    "passive": "Reduces critical damage received; gains move speed below 50% HP.",    "implies": ["crit_resistant"] },
+
+  "flanker":      { "role": "dps",     "passive": "Health packs restore extra health (+75).",                            "implies": ["dive_threat", "self_sustain"] },
+  "recon":        { "role": "dps",     "passive": "Detect enemies below half HP through walls after damaging them.",     "implies": ["anti_flank", "reveals"] },
+  "sharpshooter": { "role": "dps",     "passive": "Critical hits reduce movement-ability cooldowns.",                    "implies": ["crit_reliant"] },
+  "specialist":   { "role": "dps",     "passive": "Eliminating an enemy briefly increases reload speed.",                "implies": [] },
+
+  "tactician":    { "role": "support", "passive": "Retains excess ultimate charge after using ultimate (up to 25%).",    "implies": ["utility"] },
+  "medic":        { "role": "support", "passive": "Healing allies with your weapon also heals you (25%).",               "implies": ["self_sustain"] },
+  "survivor":     { "role": "support", "passive": "Using a movement ability triggers passive health regen.",             "implies": ["self_sustain", "mid_mobility"] }
+}

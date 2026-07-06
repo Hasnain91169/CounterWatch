@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller build artifacts (the exe is rebuildable from owstrat_launcher.py)
+_exe_build/
+build/
+dist/
+*.spec
+*.exe
+
+# Runtime logs
+server.log
+server.err.log
+
+# Redundant local archives
+*.zip
+
+# OS cruft
+Thumbs.db
+.DS_Store
+
+# Claude Code local machine settings
+.claude/settings.local.json
